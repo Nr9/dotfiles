@@ -1,8 +1,11 @@
 {
+	"color_scheme": "Packages/User/SublimeLinter/Monokai Phoenix (SL).tmTheme",
+	"font_size": 12,
 	"ignored_packages":
 	[
+		"EditorConfig",
 		"Vintage",
-		"EditorConfig"
+		"SublimeLinter"
 	],
 	"translate_tabs_to_spaces": true
 }
