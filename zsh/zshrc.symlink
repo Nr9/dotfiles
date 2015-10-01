@@ -39,3 +39,9 @@ do
 done
 
 unset config_files
+
+#THIS MUST BE AT THE END OF THE FILE FOR GVM TO WORK!!!
+[[ -s "/Users/julien/.gvm/bin/gvm-init.sh" ]] && source "/Users/julien/.gvm/bin/gvm-init.sh"
+
+# added by travis gem
+[ -f /Users/julien/.travis/travis.sh ] && source /Users/julien/.travis/travis.sh
