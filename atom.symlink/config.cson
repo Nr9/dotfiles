@@ -1,11 +1,20 @@
 "*":
-  editor:
-    showIndentGuide: true
-    fontFamily: "Menlo"
-    invisibles: {}
-    fontSize: 15
-    softWrapAtPreferredLineLength: true
+  "atom-beautify":
+    _analyticsUserId: "3ce0c612-67ef-4345-bc9f-54e528cb1895"
+    js_brace_style: "none"
+    js_end_with_comma: true
+    js_end_with_newline: true
+    js_jslint_happy: true
+  "autocomplete-plus": {}
+  autosave:
+    enabled: true
   core:
+    disabledPackages: [
+      "background-tips"
+      "exception-reporting"
+      "metrics"
+    ]
+    hideGitIgnoredFiles: true
     ignoredNames: [
       ".bundle"
       ".git"
@@ -15,22 +24,34 @@
       "vendor"
     ]
     themes: [
-      "unity-ui"
-      "glacier-syntax"
+      "native-ui"
+      "atom-light-syntax"
     ]
-    hideGitIgnoredFiles: true
-    disabledPackages: [
-      "background-tips"
-      "exception-reporting"
-      "metrics"
-    ]
+  editor:
+    fontFamily: "Menlo"
+    fontSize: 13
+    invisibles: {}
+    showIndentGuide: true
+    softWrapAtPreferredLineLength: true
+  fonts:
+    fontFamily: "Source Code Pro Medium"
+    preview: "Defaut"
+  "fuzzy-finder": {}
+  linter:
+    showErrorPanel: false
+  "linter-eslint":
+    disableWhenNoEslintrcFileInPath: true
+  "linter-jscs": {}
+  minimap: {}
+  "release-notes":
+    viewedVersion: "0.94.0"
   "spell-check":
     grammars: [
       "text.plain"
       "source.gfm"
       "text.git-commit"
     ]
+  "status-bar": {}
   welcome:
     showOnStartup: false
-  "release-notes":
-    viewedVersion: "0.94.0"
+  whitespace: {}
