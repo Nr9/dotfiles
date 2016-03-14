@@ -54,9 +54,9 @@ DISABLE_LS_COLORS="true"
 # Uncomment following line if you want red dots to be displayed while waiting for completion
 COMPLETION_WAITING_DOTS="true"
 
-plugins=(git atom autojump bower brew grails npm osx)
+plugins=(git autojump bower gulp npm brew brew-cask grails osx rbenv sublime docker docker-compose sudo)
 
 source $ZSH/oh-my-zsh.sh
 
 #THIS MUST BE AT THE END OF THE FILE FOR GVM TO WORK!!!
-[[ -s "/Users/julien/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/julien/.sdkman/bin/sdkman-init.sh"
+[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
