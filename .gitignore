@@ -5,12 +5,6 @@ atom.symlink/compile-cache/
 atom.symlink/packages
 atom.symlink/storage
 atom.symlink/themes
-
-git/gitconfig.symlink
-sublime/User.symlink/Package Control.cache
-Package Control.last-run
-Package Control.merged-ca-bundle
-Package Control.system-ca-bundle
-Package Control.user-ca-bundle
-atom.symlink/.apm
 atom.symlink/blob-store
+
+sublime/User.symlink/Package Control.*
