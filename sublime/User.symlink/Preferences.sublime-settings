@@ -4,8 +4,9 @@
 	"ignored_packages":
 	[
 		"EditorConfig",
-		"Vintage",
-		"SublimeLinter"
+		"Markdown",
+		"SublimeLinter",
+		"Vintage"
 	],
 	"translate_tabs_to_spaces": true
 }

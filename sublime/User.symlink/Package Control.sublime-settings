@@ -1,4 +1,5 @@
 {
+	"bootstrapped": true,
 	"in_process_packages":
 	[
 	],
@@ -13,6 +14,7 @@
 		"Gulp",
 		"JavaScriptNext - ES6 Syntax",
 		"LaTeXTools",
+		"MarkdownEditing",
 		"Package Control",
 		"Sass",
 		"SideBarEnhancements",
