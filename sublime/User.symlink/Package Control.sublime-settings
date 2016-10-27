@@ -23,7 +23,6 @@
 		"SublimeLinter-jscs",
 		"SublimeLinter-jshint",
 		"SublimeLinter-json",
-		"tern_for_sublime",
 		"TrailingSpaces"
 	]
 }
