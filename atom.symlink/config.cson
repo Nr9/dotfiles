@@ -69,6 +69,7 @@
       "tmp"
       "vendor"
     ]
+    telemetryConsent: "limited"
     themes: [
       "native-ui"
       "atom-light-syntax"
@@ -98,6 +99,9 @@
       "text.git-commit"
     ]
   "status-bar": {}
+  "tree-view":
+    autoReveal: true
+    hideVcsIgnoredFiles: true
   welcome:
     showOnStartup: false
   whitespace: {}
