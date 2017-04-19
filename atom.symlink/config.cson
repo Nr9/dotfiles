@@ -1,65 +1,11 @@
 "*":
-  "atom-beautify":
-    _analyticsUserId: "3ce0c612-67ef-4345-bc9f-54e528cb1895"
-    apex: {}
-    arduino: {}
-    c: {}
-    cfml: {}
-    coffeescript: {}
-    cpp: {}
-    cs: {}
-    css: {}
-    d: {}
-    ejs: {}
-    erb: {}
-    fortran: {}
-    general: {}
-    gherkin: {}
-    handlebars: {}
-    html: {}
-    jade: {}
-    java: {}
-    js: {}
-    js_brace_style: "none"
-    js_end_with_comma: true
-    js_end_with_newline: true
-    js_jslint_happy: true
-    json: {}
-    jsx: {}
-    latex: {}
-    less: {}
-    marko: {}
-    mustache: {}
-    objectivec: {}
-    pawn: {}
-    perl: {}
-    php: {}
-    python: {}
-    riot: {}
-    ruby: {}
-    rust: {}
-    sass: {}
-    scss: {}
-    spacebars: {}
-    sql: {}
-    svg: {}
-    swig: {}
-    tss: {}
-    twig: {}
-    typescript: {}
-    vala: {}
-    visualforce: {}
-    xml: {}
-    xtemplate: {}
-  "autocomplete-plus": {}
-  autosave:
-    enabled: true
   core:
     disabledPackages: [
       "background-tips"
       "exception-reporting"
       "metrics"
     ]
+    followSymlinks: false
     hideGitIgnoredFiles: true
     ignoredNames: [
       ".bundle"
@@ -69,39 +15,31 @@
       "tmp"
       "vendor"
     ]
-    telemetryConsent: "limited"
-    themes: [
-      "native-ui"
-      "atom-light-syntax"
-    ]
+    telemetryConsent: "no"
   editor:
     fontFamily: "Menlo"
-    fontSize: 13
+    fontSize: 15
     invisibles: {}
     showIndentGuide: true
     softWrapAtPreferredLineLength: true
-  fonts:
-    fontFamily: "Source Code Pro Medium"
-    preview: "Defaut"
-  "fuzzy-finder": {}
-  linter:
-    showErrorPanel: false
+  "go-plus":
+    panelDisplayMode: "closed"
   "linter-eslint":
-    disableWhenNoEslintrcFileInPath: true
-  "linter-jscs": {}
-  minimap: {}
+    useGlobalEslint: true
+  "prettier-atom":
+    formatOnSaveOptions:
+      enabled: true
   "release-notes":
-    viewedVersion: "0.94.0"
+    viewedVersion: "0.89.0"
   "spell-check":
     grammars: [
       "text.plain"
       "source.gfm"
       "text.git-commit"
+      "text.html.basic"
     ]
-  "status-bar": {}
-  "tree-view":
-    autoReveal: true
-    hideVcsIgnoredFiles: true
   welcome:
     showOnStartup: false
-  whitespace: {}
+".js.jsx.react.source":
+  editor:
+    autoIndent: true
