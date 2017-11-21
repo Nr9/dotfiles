@@ -1,11 +1,13 @@
 "*":
+  "autocomplete-plus": {}
+  autosave:
+    enabled: true
   core:
     disabledPackages: [
       "background-tips"
       "exception-reporting"
       "metrics"
     ]
-    followSymlinks: false
     hideGitIgnoredFiles: true
     ignoredNames: [
       ".bundle"
@@ -15,31 +17,31 @@
       "tmp"
       "vendor"
     ]
-    telemetryConsent: "no"
+    telemetryConsent: "limited"
+    themes: [
+      "atom-light-syntax"
+    ]
   editor:
     fontFamily: "Menlo"
-    fontSize: 15
+    fontSize: 13
     invisibles: {}
     showIndentGuide: true
     softWrapAtPreferredLineLength: true
-  "go-plus":
-    panelDisplayMode: "closed"
-  "linter-eslint":
-    useGlobalEslint: true
-  "prettier-atom":
-    formatOnSaveOptions:
-      enabled: true
-  "release-notes":
-    viewedVersion: "0.89.0"
+  fonts:
+    fontFamily: "Source Code Pro Medium"
+    preview: "Defaut"
+  "linter-ui-default": {}
+  minimap: {}
   "spell-check":
     grammars: [
       "text.plain"
       "source.gfm"
       "text.git-commit"
-      "text.html.basic"
     ]
+  "status-bar": {}
+  "tree-view":
+    autoReveal: true
+    hideVcsIgnoredFiles: true
   welcome:
     showOnStartup: false
-".js.jsx.react.source":
-  editor:
-    autoIndent: true
+  whitespace: {}
