@@ -1,4 +1,9 @@
 "*":
+  "atom-beautify":
+    general:
+      _analyticsUserId: "147def58-5fa4-4fc8-bc5b-7789851ccc51"
+  "atom-ide-ui":
+    use: {}
   "autocomplete-plus": {}
   autosave:
     enabled: true
@@ -7,6 +12,7 @@
       "background-tips"
       "exception-reporting"
       "metrics"
+      "atom-ide-ui"
     ]
     hideGitIgnoredFiles: true
     ignoredNames: [
@@ -18,9 +24,6 @@
       "vendor"
     ]
     telemetryConsent: "limited"
-    themes: [
-      "atom-light-syntax"
-    ]
   editor:
     fontFamily: "Menlo"
     fontSize: 13
@@ -30,7 +33,8 @@
   fonts:
     fontFamily: "Source Code Pro Medium"
     preview: "Defaut"
-  "linter-ui-default": {}
+  "linter-ui-default":
+    showPanel: true
   minimap: {}
   "spell-check":
     grammars: [
