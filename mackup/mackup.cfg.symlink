@@ -1,12 +1,11 @@
 [storage]
 engine = icloud
-directory = .mackup
 
 [applications_to_sync]
-Atom
 vscode
-sublime-text-3
-Charles
 Dash
 Kaleidoscope
 Xcode
+HTTPie
+Tower
+iTerm2
